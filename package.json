@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "flickity": "^2.3.0",
+    "videojs-hotkeys": "^0.2.27"
+  },
+  "devDependencies": {
+    "video.js": "^7.17.0"
+  }
+}

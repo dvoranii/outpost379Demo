@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="general-styles.css" />
+    <link rel="stylesheet" href="media-queries.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <link href="https://vjs.zencdn.net/7.17.0/video-js.css" rel="stylesheet" />
+    <title>Web Dev Made Easy</title>
+  </head>
+  <body>
+    <header>
+      <nav class="" nav></nav>
+    </header>
+
+    <div class="hero-section">
+      <div class="hero-container">
+        <h1 class="hero-title">WebDev.Learn</h1>
+        <button class="cta">Watch Intro</button>
+      </div>
+    </div>
+
+    <!-- MODAL -->
+    <div class="modal">
+      <div class="modal-inner">
+        <button class="btn-close">x</button>
+        <video id="hero-video" class="video-js">
+          <source
+            src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            type="video/mp4"
+          />
+          <p class="vjs-no-js">
+            To view this video please enable JavaScript, and consider upgrading
+            to a web browser that
+            <a href="https://videojs.com/html5-video-support/" target="_blank"
+              >supports HTML5 video</a
+            >
+          </p>
+        </video>
+      </div>
+    </div>
+    <!-- Carousel 1 -->
+    <section class="container">
+      <h1 class="heading-primary">Documentation</h1>
+      <div class="carousel-1 -set">
+        <div class="carousel-cell">
+          <div class="cell-container">
+            <div class="img-container">
+              <a href="https://angular.io/docs" target="'_blank"
+                ><img src="img/angular-modal.png" alt=""
+              /></a>
+            </div>
+            <a href="https://angular.io/docs" class="tech-title" target="_blank"
+              ><h2 style="text-align: center; color: white">Angular</h2></a
+            >
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia
+              deleniti sequi unde? Odit temporibus architecto perferendis nihil,
+              rerum, delectus autem assumenda ad, consequatur modi alias a
+              excepturi ...
+              <a
+                href="https://angular.io/docs"
+                class="read-more"
+                target="_blank"
+                >read more</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <div class="cell-container">
+            <div class="img-container">
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+                target="'_blank"
+                ><img src="img/css-modal.png" alt=""
+              /></a>
+            </div>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+              class="tech-title"
+              target="_blank"
+              ><h1 style="text-align: center; color: white">CSS</h1></a
+            >
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia
+              deleniti sequi unde? Odit temporibus architecto perferendis nihil,
+              rerum, delectus autem assumenda ad, consequatur modi alias a
+              excepturi ipsa deleniti eius! ...<a
+                href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+                target="_blank"
+                class="read-more"
+                >read more</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <div class="cell-container">
+            <div class="img-container">
+              <a
+                href="https://firebase.google.com/docs?gclid=Cj0KCQiAgP6PBhDmARIsAPWMq6nyxf-Es-DEzdMBR8lBXhIjqO-THnMWETP8CXQ21cd1iz8HSIiBpoIaAvlEEALw_wcB&gclsrc=aw.ds"
+                target="'_blank"
+                ><img src="img/firebase-modal.png" alt=""
+              /></a>
+            </div>
+            <a
+              href="https://firebase.google.com/docs?gclid=Cj0KCQiAgP6PBhDmARIsAPWMq6nyxf-Es-DEzdMBR8lBXhIjqO-THnMWETP8CXQ21cd1iz8HSIiBpoIaAvlEEALw_wcB&gclsrc=aw.ds"
+              target="_blank"
+              class="tech-title"
+              ><h1 style="text-align: center; color: white">
+                Google Firebase
+              </h1></a
+            >
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia
+              deleniti sequi unde? Odit temporibus architecto perferendis nihil,
+              rerum, delectus autem assumenda ad, consequatur modi alias a
+              excepturi ipsa deleniti eius! ...<a
+                href="https://firebase.google.com/docs?gclid=Cj0KCQiAgP6PBhDmARIsAPWMq6nyxf-Es-DEzdMBR8lBXhIjqO-THnMWETP8CXQ21cd1iz8HSIiBpoIaAvlEEALw_wcB&gclsrc=aw.ds"
+                target="_blank"
+                class="read-more"
+                >read more</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <div class="cell-container">
+            <div class="img-container">
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/HTM"
+                target="'_blank"
+                ><img src="img/html-modal.png" alt=""
+              /></a>
+            </div>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTM"
+              class="tech-title"
+              target="_blank"
+              ><h1 style="text-align: center; color: white">HTML</h1></a
+            >
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia
+              deleniti sequi unde? Odit temporibus architecto perferendis nihil,
+              rerum, delectus autem assumenda ad, consequatur modi alias a
+              excepturi ipsa deleniti eius! ...<a
+                href="https://developer.mozilla.org/en-US/docs/Web/HTM"
+                target="_blank"
+                class="read-more"
+                >read more</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <div class="cell-container">
+            <div class="img-container">
+              <a href="https://www.php.net/docs.php" target="'_blank"
+                ><img src="img/php-modal.png" alt=""
+              /></a>
+            </div>
+            <a
+              href="https://www.php.net/docs.php"
+              class="tech-title"
+              target="_blank"
+              ><h1 style="text-align: center; color: white">PHP</h1></a
+            >
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia
+              deleniti sequi unde? Odit temporibus architecto perferendis nihil,
+              rerum, delectus autem assumenda ad, consequatur modi alias a
+              excepturi ipsa deleniti eius! ...<a
+                href="https://www.php.net/docs.php"
+                class="read-more"
+                target="_blank"
+                >read more</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <div class="cell-container">
+            <div class="img-container">
+              <a href="https://www.typescriptlang.org/docs/" target="'_blank"
+                ><img src="img/typescript.png" alt=""
+              /></a>
+            </div>
+            <a
+              href="https://www.typescriptlang.org/docs/"
+              class="tech-title"
+              target="_blank"
+              ><h1 style="text-align: center; color: white">Typescript</h1></a
+            >
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia
+              deleniti sequi unde? Odit temporibus architecto perferendis nihil,
+              rerum, delectus autem assumenda ad, consequatur modi alias a
+              excepturi ipsa deleniti! ...<a
+                href="https://www.typescriptlang.org/docs/"
+                class="read-more"
+                target="_blank"
+              >
+                read more</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="box"></div>
+    <!-- Carousel 2 -->
+    <section class="container">
+      <h1 class="heading-primary">Tutorials</h1>
+      <div class="carousel-2 -set">
+        <div class="carousel-cell">
+          <div class="img-container">
+            <img src="img/angular-modal.png" alt="" />
+          </div>
+        </div>
+        <div
+          class="carousel-cell"
+          style="background-image: url(img/css-modal.png)"
+        ></div>
+        <div
+          class="carousel-cell"
+          style="background-image: url(img/firebase-modal.png)"
+        ></div>
+        <div
+          class="carousel-cell"
+          style="background-image: url(img/html-modal.png)"
+        ></div>
+        <div
+          class="carousel-cell"
+          style="background-image: url(img/php-modal.png)"
+        ></div>
+        <div
+          class="carousel-cell"
+          style="background-image: url(img/typescript.png)"
+        ></div>
+      </div>
+    </section>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://vjs.zencdn.net/7.17.0/video.min.js"></script>
+    <script src="https://cdn.sc.gl/videojs-hotkeys/0.2/videojs.hotkeys.min.js"></script>
+    <script src="/dist/basicScroll.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
